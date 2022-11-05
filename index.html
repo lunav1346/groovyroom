@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>GroovyRoom</title>
+  </head>
+
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-sm bg-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html">GROOVYROOM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#parts">PARTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <about class="text-center" id="about">
+      <div data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+        <div class="container-fluid mt-5">
+          <p class="h3 text-dark">GroovyRoom?</p>
+        </div>
+        <hr
+          style="margin: auto; margin-top: 3px; margin-bottom: 30px; width: 30%"
+        />
+        <p class="h6 text-dark mt-3">
+          그루비룸은 한국항공대학교 소프트웨어학과 소모임입니다.
+        </p>
+        <p class="h6 text-dark mt-3">
+          자율성을 중시하기 때문에 가입 후 활동을 하지 않아도 됩니다.
+        </p>
+        <p class="h5 text-dark mt-3">"그루비룸은 그룹이름에서 따왔습니다."</p>
+      </div>
+    </about>
+
+    <works class="text-center" id="parts">
+      <hr
+        style="margin: auto; margin-top: 30px; margin-bottom: 30px; width: 50%"
+      />
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+        <p class="mt-5 h4">PARTS</p>
+        <p class="h6">
+          그루비룸은 크게 알고리즘 학습, 웹개발 학습으로 나누어 활동합니다.
+        </p>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 mt-3" style="margin: auto">
+              <div class="card">
+                <div class="card-body">
+                  <a href="#algorithm">
+                    <img src="./boj.png" alt="" class="card-img" />
+                  </a>
+                  <!-- <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M6.628 23h-2.628l2.732-4h-6.732v-2h1v-16h22v16h1v2h-6.731l2.731 4h-2.627l-2.736-4h-5.273l-2.736 4zm14.372-20h-18v14h18v-14zm-6 12h4v1h-4v-1zm-8.245-6.074l1.157 4.319-1.099.294-.838-3.126-.974.576-.034-.014-.222-.828 1.801-1.165.209-.056zm3.835.922l1.131-.303.25.932-1.132.303.31 1.155-1.055.282-.31-1.154-1.134.304-.25-.932 1.135-.304-.297-1.106 1.055-.283.297 1.106zm4.509 1.471l-1.099.295-.838-3.127-.975.576-.033-.013-.222-.828 1.8-1.166.209-.056 1.158 4.319zm3.932-2.926l.231.861-2.995.803-.231-.861 2.995-.803zm-.328-1.225l.23.861-2.995.803-.23-.862 2.995-.802z"/></svg></a> -->
+                  <p class="card-text h5">Algorithm</p>
+                  <a href="#algorithm" class="btn btn-dark"
+                    >알고리즘부 알아보기</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+            <div class="col-sm-6 mt-3" style="margin: auto">
+              <div class="card">
+                <div class="card-body">
+                  <a href="#web">
+                    <img src="./web.png" alt="" class="card-img" />
+                  </a>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M6.628 23h-2.628l2.732-4h-6.732v-2h1v-16h22v16h1v2h-6.731l2.731 4h-2.627l-2.736-4h-5.273l-2.736 4zm14.372-20h-18v14h18v-14zm-6 12h4v1h-4v-1zm-8.245-6.074l1.157 4.319-1.099.294-.838-3.126-.974.576-.034-.014-.222-.828 1.801-1.165.209-.056zm3.835.922l1.131-.303.25.932-1.132.303.31 1.155-1.055.282-.31-1.154-1.134.304-.25-.932 1.135-.304-.297-1.106 1.055-.283.297 1.106zm4.509 1.471l-1.099.295-.838-3.127-.975.576-.033-.013-.222-.828 1.8-1.166.209-.056 1.158 4.319zm3.932-2.926l.231.861-2.995.803-.231-.861 2.995-.803zm-.328-1.225l.23.861-2.995.803-.23-.862 2.995-.802z"/></svg> -->
+                  <p class="card-text h5">Web Development</p>
+                  <a href="#web" class="btn btn-dark">웹개발부 알아보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid mt-5">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+            <div
+              class="col-sm-6 mt-3 introduce"
+              style="margin: auto; padding-top: 70px"
+              id="algorithm"
+            >
+              <div class="card">
+                <div class="card-body bg-dark text-light">
+                  <img src="./boj.png" alt="" class="card-img opacity-50" />
+                  <div class="card-img-overlay">
+                    <p class="card-text h3">Algorithm</p>
+                    <p class="card-text">
+                      알고리즘 학습에서는 프로그래밍에 대해 배우고, 자체적으로
+                      만든 백준 문제집을 풀며 컴퓨팅적 사고력과 프로그래밍 관련
+                      과목에 대비합니다.<br />알고리즘 학습하는 부원 중 대회에
+                      참가해 수상하는 부원도 있습니다.
+                    </p>
+                    <p class="card-text">KEYWARD: Python, C (추후 추가 예정)</p>
+                  </div>
+                  <!-- <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M6.628 23h-2.628l2.732-4h-6.732v-2h1v-16h22v16h1v2h-6.731l2.731 4h-2.627l-2.736-4h-5.273l-2.736 4zm14.372-20h-18v14h18v-14zm-6 12h4v1h-4v-1zm-8.245-6.074l1.157 4.319-1.099.294-.838-3.126-.974.576-.034-.014-.222-.828 1.801-1.165.209-.056zm3.835.922l1.131-.303.25.932-1.132.303.31 1.155-1.055.282-.31-1.154-1.134.304-.25-.932 1.135-.304-.297-1.106 1.055-.283.297 1.106zm4.509 1.471l-1.099.295-.838-3.127-.975.576-.033-.013-.222-.828 1.8-1.166.209-.056 1.158 4.319zm3.932-2.926l.231.861-2.995.803-.231-.861 2.995-.803zm-.328-1.225l.23.861-2.995.803-.23-.862 2.995-.802z"/></svg></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+            <div class="col-sm-6 mt-3" style="margin: auto" id="web">
+              <div class="card">
+                <div class="card-body bg-dark text-light">
+                  <img src="./web.png" alt="" class="card-img opacity-50" />
+                  <div class="card-img-overlay">
+                    <p class="card-text h3">Web Development</p>
+                    <p class="card-text">
+                      웹 개발에서는 웹 프로그래밍에 대해 배우고, 직접 사이트를
+                      만들어봅니다.<br />배운 지식을 바탕으로 교내, 외 해커톤을
+                      비롯한 여러 대회에 참여하기도 합니다.
+                    </p>
+                    <p class="card-text">
+                      KEYWARD: HTML, CSS, JAVASCRIPT, BOOTSTRAP, React (추후
+                      추가 예정)
+                    </p>
+                  </div>
+                </div>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M6.628 23h-2.628l2.732-4h-6.732v-2h1v-16h22v16h1v2h-6.731l2.731 4h-2.627l-2.736-4h-5.273l-2.736 4zm14.372-20h-18v14h18v-14zm-6 12h4v1h-4v-1zm-8.245-6.074l1.157 4.319-1.099.294-.838-3.126-.974.576-.034-.014-.222-.828 1.801-1.165.209-.056zm3.835.922l1.131-.303.25.932-1.132.303.31 1.155-1.055.282-.31-1.154-1.134.304-.25-.932 1.135-.304-.297-1.106 1.055-.283.297 1.106zm4.509 1.471l-1.099.295-.838-3.127-.975.576-.033-.013-.222-.828 1.8-1.166.209-.056 1.158 4.319zm3.932-2.926l.231.861-2.995.803-.231-.861 2.995-.803zm-.328-1.225l.23.861-2.995.803-.23-.862 2.995-.802z"/></svg> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </works>
+
+    <contact class="text-center" id="contact">
+      <hr
+        style="margin: auto; margin-top: 30px; margin-bottom: 30px; width: 50%"
+      />
+      <div data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+        <p class="mt5 h4" style="margin-bottom: 70px">CONTACT</p>
+        <p class="h6">
+          lunav1346@kau.kr로 소속학과와 학번, 이름, 백준 아이디를 보내주세요.<br />백준
+          그룹
+          <a href="https://www.acmicpc.net/group/14587" class="text-dark"
+            >GroovyRoom</a
+          >에 가입해야 하며, 백준에서 적어도 1문제 이상 풀어야 합니다.
+        </p>
+      </div>
+    </contact>
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2022 Copyright: lunav1346 <br />lunav1346@kau.kr<br /><br />
+        <a
+          class="text-decoration-none text-dark"
+          href="https://www.acmicpc.net/group/14587"
+          >BOJ Group "GroovyRoom"</a
+        >
+      </div>
+    </footer>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
